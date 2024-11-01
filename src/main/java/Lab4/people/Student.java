@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Student extends Person{
     private int credits;
     private int student_id;
-    private ArrayList<int> grades;
+    private ArrayList<Integer> grades;
     public Student(String name, String street) {
         super(name, street);
         this.credits = 0;
@@ -19,7 +19,7 @@ public class Student extends Person{
         this.student_id = student_id;
     }
 
-    public ArrayList<int> getGrade(){
+    public ArrayList<Integer> getGrade(){
         return grades;
     }
 
